@@ -2,6 +2,8 @@ use strict;
 use warnings;
 package Kelp::Module::FlashMessage;
 
+our $VERSION = 0.04;
+
 use parent 'Kelp::Module';
 
 sub build {
